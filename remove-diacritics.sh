@@ -7,15 +7,15 @@ then
 	exit 1
 fi
 
-rows=`wc -l $1 | cut -d ' ' -f 1`
-rm -f $2
+rows=`wc -l "$1" | cut -d ' ' -f 1`
+rm -f "$2"
 iteration=0
 
 while IFS=$'\t' read word definition
 do
 	let "iteration++"
 	echo -ne "Processing entry ${iteration}/${rows}\r"
-	clean_word=`echo $word | perl -CS -MUnicode::Normalize -pne '$_=NFKD($_);s/\p{InDiacriticals}//g'`
-	echo "$clean_word"$'\t'"<h2><i>$word</i></h2><br>$definition" >> $2
-done < $1
+	clean_word=`echo "$word" | perl -CS -MUnicode::Normalize -pne '$_=NFKD($_);s/\p{InDiacriticals}//g'`
+	echo "$clean_word"$'\t'"<i>$word</i><br>$definition" >> "$2"
+done < "$1"
 echo -e "\033[2KProcessing done!"
