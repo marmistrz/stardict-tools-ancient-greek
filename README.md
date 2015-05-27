@@ -1,5 +1,6 @@
 # stardict-tools-ancient-greek
 Stardict tools for Ancient Greek
+
 ---------------
 
 Released under GPLv3 license.
