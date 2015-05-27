@@ -7,10 +7,10 @@ Released under GPLv3 license.
 
 ---------------
 
-First decompile the dictionary to a tab file.
-Run `remove-diacritics.sh` to remove the diacritics from the keywords.
-Run `transliterate.sh` to transliterate the keywords. The keywords MUST be diacritics-less.
-To compile dictionary with duplicate keywords you need to have `stardict-tools (<< 3.0.2) | stardict-tools (>= 3.0.5)`
+First decompile the dictionary to a tab file.<br/>
+Run `remove-diacritics.sh` to remove the diacritics from the keywords. <br/>
+Run `transliterate.sh` to transliterate the keywords. The keywords MUST be diacritics-less to be transliterated.<br/>
+To compile dictionary with duplicate keywords you need to have `stardict-tools (<< 3.0.2) | stardict-tools (>= 3.0.5)`<br/>
 
 ---------------
 
