@@ -15,5 +15,5 @@ To compile dictionary with duplicate keywords you need to have `stardict-tools (
 
 Thanks to the folks from Stackoverflow
 
-[1] http://stackoverflow.com/questions/30393681/removing-diacritical-marks-from-a-greek-text-in-an-automatic-way/ <br/>
+[1] http://stackoverflow.com/questions/30393681/removing-diacritical-marks-from-a-greek-text-in-an-automatic-way/
 [2] http://stackoverflow.com/questions/30461142/using-cut-on-stdout-with-tabs/
