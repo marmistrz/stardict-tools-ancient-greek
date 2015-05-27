@@ -8,7 +8,7 @@ then
 fi
 
 rows=`wc -l $1 | cut -d ' ' -f 1`
-rm $2
+rm -f $2
 iteration=0
 
 while IFS=$'\t' read word definition
