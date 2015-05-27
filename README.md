@@ -8,8 +8,6 @@ Run `remove-diacritics.sh` to remove the diacritics from the keywords.
 Run `transliterate.sh` to transliterate the keywords. The keywords MUST be diacritics-less.
 To compile dictionary with duplicate keywords you need to have `stardict-tools (<< 3.0.2) | stardict-tools (>= 3.0.5)`
 
-The script doesn't support escape sequences in the entries.
-
 ===============================
 
 Thanks to the folks from Stackoverflow
